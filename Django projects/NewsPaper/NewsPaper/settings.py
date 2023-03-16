@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'news',
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'django_filters',
 ]
 
 SITE_ID = 1
@@ -133,3 +134,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
